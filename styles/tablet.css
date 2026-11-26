@@ -1,0 +1,117 @@
+body {
+    font-size: 20px;
+}
+
+/* ------------------------------------------- */
+/* ----------- HEADER & NAVIGATION ----------- */	
+a {
+    font-size: 18px;
+}
+.blueberries-logo{
+    width: 100%;
+}
+.nutrition {
+    width: 40%;
+}
+.recipes {
+    width: 40%;
+}
+.bb-logo {
+    width: 30%;
+}
+
+/* ----------------------------------------------- */
+/* ------------------ HOME PAGE ------------------ */
+.image-bb-1{
+    width: 25%;
+}
+.paragraph { 
+    width: 80%;
+}
+
+/* ------------------------------------------- */
+/* --------- BLOCK IMAGE + PARAGRAPH --------- */
+.block-background{
+    width: 80%; 
+}
+/* .block-group{
+    flex-direction: column;  
+    gap: 0px;   
+} */
+.block-image{
+    width: 36%;
+    height: auto;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block-paragraph{
+    width: 65%;
+    font-size: 20px; 
+    padding: 40px 20px 40px 20px;
+}
+.image-bb-2{
+    width: 30%;
+}
+
+/* ----------------------------------------------- */
+/* ------------- NUTRITION PAGE ------------------ */
+.nutrition-segment{
+    width: 80%;
+}
+.nutrition-block-title{
+    font-size: 28px;}
+.nutrition-block-info{   
+    font-size: 20px;
+}
+.image-bb-3{
+    width: 40%;
+}
+.image-bb-4{
+    width: 50%;
+}
+.title2 {
+    width: 80%;
+}
+
+/* -------------------------------------------------- */
+/* ------------------ RECIPES PAGE ------------------ */
+.image-bb-5{
+    width: 35%;
+}
+.image-bb-1b{
+    width: 20%;
+}
+.tab-set{  
+    width: 85%;
+    gap: 25px;
+    margin-bottom: 15px;  
+}
+.recipe-block{
+    width: 25%;
+    font-size: 20px;
+}
+.recipe-block-selected{
+    width: 25%;
+    font-size: 20px;
+}
+.block-recipe{
+    width: 80%;
+    padding: 25px;
+}
+.recipe-columns-title{
+    gap: 30px;  
+    margin: 60px 20px 30px 30px;
+}
+.recipe-text{
+    margin: 30px 20px 30px 30px;
+}
+.recipe-columns{
+    margin: 30px 20px 30px 30px;
+}
+.recipe-ingredients{
+    width: 55%;
+}
+.prep-time{
+    width: 35%;
+}

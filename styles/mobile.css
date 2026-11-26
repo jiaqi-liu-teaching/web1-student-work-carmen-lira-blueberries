@@ -1,0 +1,237 @@
+body {
+    font-size: 15.84px;
+}
+
+/* ------------------------------------------- */
+/* ----------- HEADER & NAVIGATION ----------- */	
+.header-content {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px 36px;
+    width: 100%;
+}
+a {
+    font-size: 20.16px;
+}
+.header-content a {
+    font-size: 18px;
+}
+.blueberries-logo{
+    width: 100%;
+}
+.nutrition {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+.recipes {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+.bb-logo {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    width: 45vw;
+}
+
+/* ----------------------------------------------- */
+/* ------------------ HOME PAGE ------------------ */
+.image-bb-1{
+    width: 40%;
+}
+.title {
+    font-size: 34.56px;
+    line-height: 1.3em;
+}
+.paragraph { 
+    font-size: 15.84px;
+    width: 80%;
+}
+
+/* ------------------------------------------- */
+/* --------- BLOCK IMAGE + PARAGRAPH --------- */
+.block-background{
+    width: 100%; 
+}
+.block-group{
+    flex-direction: column;  
+    gap: 0px;   
+}
+.block-image{
+    width: 75%;
+    padding: 30px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block-paragraph{
+    width: 70%;
+    font-size: 15.84px; 
+}
+.image-bb-2{
+    width: 40%;
+}
+
+/* ----------------------------------------------- */
+/* ------------- NUTRITION PAGE ------------------ */
+.nutrition-segment{
+    flex-direction: column;  
+    width: 70%;
+    margin-bottom: 40px;
+}
+.nutrition-block-title{
+    font-size: 21.6px;}
+.nutrition-block-info{   
+    font-size: 15.84px;
+}
+.image-bb-3{
+    width: 70%;
+}
+.image-bb-4{
+    width: 75%;
+}
+.title2 {
+    width: 80%;
+}
+
+/* -------------------------------------------------- */
+/* ------------------ RECIPES PAGE ------------------ */
+.image-bb-5{
+    width: 60%;
+}
+.image-bb-1b{
+    width: 40%;
+}
+.tab-set{
+    flex-direction: column;  
+    width: 70%;
+    gap: 30px;
+    margin-bottom: 30px;  
+}
+.recipe-block{
+    width: 100%;
+    font-size: 20.16px;
+}
+.recipe-block-selected{
+    width: 100%; 
+    font-size: 20.16px;
+}
+.block-recipe{
+    flex-direction: column;  
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.recipe-columns-title{
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px; 
+}
+.recipe-title{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.download-icon{
+    width: 36px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.print-icon{
+    width: 36px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recipe-text{
+    line-height: 1.5em;
+    margin: 10px 15px 20px 15px;
+}
+.recipe-columns{
+    flex-direction: column;  
+    gap: 30px;  
+    margin: 10px 15px 45px 15px;
+}
+.recipe-ingredients{
+    width: 80%;
+}
+.prep-time{
+    width: 80%;
+}
+
+/* ------------------------------ */
+/* ----------- FOOTER ----------- */
+.footer-info {
+    flex-direction: column;  
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.footer-left {
+    width: 80%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;
+}
+.copy-right{
+    justify-content: center;
+    width: 80%;
+}
+.block-note{
+    font-size: 15.84px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-media-icon{
+    width: 42px;
+}
+.contact-info{
+    font-size: 17.28px;
+}
+.address{
+    font-size: 14.4px;   
+}
+.email-font{
+    font-size: 14.4px; 
+    font-weight: 400;
+    padding-left: 0;
+    margin-left: 0;
+}
+/* Scale the desktop-defined headings by the same mobile ratio. */
+.title2 { font-size: 31.68px; }
+.recipe-title { font-size: 25.92px; }
+
+/* Give mobile content more room while keeping consistent side margins. */
+.paragraph, .title, .title2, .nutrition-segment, .tab-set, .block-recipe {
+    width: 90%;
+    box-sizing: border-box;
+}
+.block-paragraph {
+    width: 85%;
+    box-sizing: border-box;
+    margin-inline: auto;
+    padding: 20px 0 40px;
+    text-align: left;
+}
+.nutrition-block { padding: 20px; }
+.recipe-block, .recipe-block-selected { box-sizing: border-box; }
+.recipe-columns-title, .recipe-columns { width: auto; margin-left: 8px; margin-right: 8px; }
+.recipe-text { margin-left: 8px; margin-right: 8px; }

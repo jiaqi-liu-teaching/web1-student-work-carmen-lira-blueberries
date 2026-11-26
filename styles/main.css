@@ -1,0 +1,486 @@
+/* .anonymous-pro-regular {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anonymous-pro-bold {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+@font-face {
+    font-family: "smoothy-regular";
+    src: url("../fonts/smoothy-regular.woff2") format("woff2"),
+         url("../fonts/smoothy-regular.woff") format("woff"),
+         url("../fonts/smoothy-regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "cormorant";
+    src: url("../fonts/cormorant.woff2") format("woff2"),
+         url("../fonts/cormorant.woff") format("woff"),
+         url("../fonts/cormorant.ttf") format("truetype");
+}
+
+body {
+    font-family: "Anonymous Pro";
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FBFBFB;
+    height: auto;
+    color: #574752;
+}
+
+/* ------------------------------------------- */
+/* ---------------- GRADIENTS ---------------- */
+.gradient-top{
+    width: 100%;
+    height: 28px;
+    background: linear-gradient(#2F4164, #aebfdf, #FBFBFB);
+}
+.gradient-bottom{
+    width: 100%;
+    height: 26px;
+    background: linear-gradient(#FBFBFB, #aebfdf, #2F4164); 
+}
+
+/* ------------------------------------------- */
+/* ---------------- GREEN END BLOCKS ---------------- */
+.left-green-block {
+    display: block;
+    background-color: #76A30C;
+    height: 40px;
+    width: 15px;
+    margin-left: 0px;
+}
+.right-green-block {
+    display: block;
+    background-color: #76A30C;
+    height: 40px;
+    width: 15px;
+    margin-right: 0px;
+}
+
+/* ------------------------------------------- */
+/* ----------- HEADER & NAVIGATION ----------- */	
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+    gap: 20px;
+}
+a {
+    color: #574752;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 3px;
+}
+.nav-hover{
+    border-bottom: 3px solid transparent;
+}
+.nav-hover:hover{
+	border-bottom: 3px solid #574752;
+    font-weight: 700;
+}
+.nav-selected{
+	border-bottom: 3px solid #574752;
+    font-weight: 700;
+}
+.nutrition {
+    width: 40%;
+    text-align: right;
+}
+.recipes {
+    width: 40%;
+    text-align: left;
+}
+.bb-logo {
+    width: 25%;
+}
+.blueberries-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+/* ----------------------------------------------- */
+/* ------------------ HOME PAGE ------------------ */
+.image-bb-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 18%;
+    height: auto;
+    padding-bottom: 0px;
+}
+.image-bb-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 22%;
+    height: auto;
+    padding-bottom: 0px;
+}
+.block-title-group{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;  
+}
+.title {
+    font-family: "cormorant";
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px 0 30px;
+    line-height: 1.1em;
+}
+.paragraph { 
+    width: 60%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    text-align: left;
+    line-height: 1.5em;
+    padding: 0px;
+}
+
+/* ------------------------------------------- */
+/* --------- BLOCK IMAGE + PARAGRAPH --------- */
+.block-background{
+    display: block;
+    background-color: #F3F3F3; 
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 60px;    
+    /* box-shadow: 0 3px 8px 1px rgba(40,40,40, 0.2);  */
+}
+.block-group{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto; 
+    gap: 20px;   
+}
+.block-image{
+    display: block;
+    width: 42%;
+    height: auto;
+    padding: 50px;
+    object-fit: contain;
+}
+.block-paragraph{
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: left;
+    line-height: 1.75em;
+    font-size: 18px; 
+    font-weight: 400; 
+    padding: 40px 60px 40px 10px;
+}
+
+/* ----------------------------------------------- */
+/* ------------- NUTRITION PAGE ------------------ */
+.image-bb-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 30%;
+    padding-bottom: 0px;
+}
+.image-bb-4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 40%;
+    padding-bottom: 0px;
+}
+.title2 {
+    font-family: "cormorant";
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0px 0 30px;
+    line-height: 1.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nutrition-segment{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    gap: 40px;
+    margin-bottom: 45px;
+}
+.nutrition-block{
+    flex: 1;
+    background-color: #F3F3F3;
+    outline: #76A30C solid 3px;
+    border-radius: 5px;
+    padding: 35px;
+    box-shadow: 0 3px 6px rgba(40,40,40, 0.3); 
+}
+.nutrition-block-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    line-height: 1.1em;
+}
+.nutrition-block-info{   
+    line-height: 1.5em;
+}
+
+
+/* -------------------------------------------------- */
+/* ------------------ RECIPES PAGE ------------------ */
+.title {
+    width: 80%;
+}
+.image-bb-5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 20%;
+    height: auto;
+    padding-bottom: 0px;
+}
+.image-bb-1b{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    width: 15%;
+    height: auto;
+    padding-bottom: 0px;
+}
+.tab-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    gap: 30px;  
+    margin-bottom: 15px;
+}
+.recipe-block{
+    flex: 1;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    width: 23%;
+    box-shadow: 0 3px 6px rgba(40,40,40, 0.3); 
+    color: rgb(87, 71, 82, 0.3); 
+}
+.recipe-block:hover{
+    background-color: #FBFBFB;
+    color: #574752; 
+}
+.recipe-block-selected{
+    flex: 1;
+    background-color: #FBFBFB;    
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    font-weight: 700;
+    width: 23%;
+    box-shadow: 0 3px 6px rgba(40,40,40, 0.3); 
+}
+.block-recipe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 15px;
+    background-color: #FBFBFB;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 3px 6px rgba(40,40,40, 0.3); 
+}
+.recipe-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+.recipe-columns-title{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    gap: 30px;  
+    margin: 60px 30px 30px 60px;
+}
+.recipe-title{
+    width: 50%;
+    font-size: 36px;
+    font-weight: 700;
+}
+.recipe-columns{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    gap: 30px;  
+    margin: 30px 30px 30px 60px;
+}
+.recipe-ingredients{
+    width: 50%;
+    line-height: 1.5em;
+}
+.prep-time{
+    width: 40%;
+    line-height: 1.5em;
+    margin-right: 0px;
+}
+.download-icon{
+    width: 40%;
+    line-height: 1.5em;
+    margin-right: 0px;
+}
+.print-icon{
+    width: 36px;
+    height: auto;
+    float: right;
+    margin-right: 60px;
+}
+.recipe-text{
+    line-height: 1.5em;
+    margin: 30px 30px 30px 60px;
+}
+.recipe-bold-text{
+    font-weight: 700;
+}
+
+
+
+
+/* ------------------------------ */
+/* ----------- FOOTER ----------- */
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 0px 0px;
+    color: #1C2A44;
+}
+.block-note{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.footer-left {
+    width: 40%;
+}
+.copy-right{
+    justify-content: center;
+    width: 25%;
+    margin-top: 0px;
+    margin-bottom: auto;
+    padding: 0px; 
+}
+.social-media{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: auto;
+    gap: 15px;
+}
+.social-media-icon{
+    width: 24px;
+    height: auto;
+    text-shadow: 0 3px 6px rgba(40,40,40, 0.3); 
+}
+.contact-info{
+    font-size: 18px;
+    font-weight: 700;
+}
+.address{
+    font-size: 14px;   
+}
+.email-font{
+    font-size: 14px; 
+    font-weight: 400;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* Smaller type on desktop; tablet and mobile retain their existing sizes. */
+@media screen and (min-width: 1025px) {
+    .tab-set {
+        width: calc(60% + 50px);
+    }
+
+    body, a, .block-paragraph, .contact-info {
+        font-size: 16px;
+    }
+
+    .title, .title2 {
+        font-size: 40px;
+    }
+
+    .nutrition-block-title {
+        font-size: 23px;
+    }
+
+    .recipe-title {
+        font-size: 32px;
+    }
+
+    .block-note {
+        font-size: 14px;
+    }
+
+    .address, .email-font {
+        font-size: 12px;
+    }
+}
+
