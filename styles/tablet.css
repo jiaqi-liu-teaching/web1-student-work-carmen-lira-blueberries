@@ -1,5 +1,5 @@
 body {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* ------------------------------------------- */
@@ -47,7 +47,7 @@ a {
 }
 .block-paragraph{
     width: 65%;
-    font-size: 20px; 
+    font-size: 16px; 
     padding: 40px 20px 40px 20px;
 }
 .image-bb-2{
@@ -60,9 +60,9 @@ a {
     width: 80%;
 }
 .nutrition-block-title{
-    font-size: 28px;}
+    font-size: 23px;}
 .nutrition-block-info{   
-    font-size: 20px;
+    font-size: 16px;
 }
 .image-bb-3{
     width: 40%;
@@ -89,11 +89,11 @@ a {
 }
 .recipe-block{
     width: 25%;
-    font-size: 20px;
+    font-size: 18px;
 }
 .recipe-block-selected{
     width: 25%;
-    font-size: 20px;
+    font-size: 18px;
 }
 .block-recipe{
     width: 80%;
@@ -115,3 +115,10 @@ a {
 .prep-time{
     width: 35%;
 }
+
+/* Keep tablet headings and footer in proportion with the smaller body text. */
+.title, .title2 { font-size: 38px; }
+.recipe-title { font-size: 30px; }
+.block-note { font-size: 14px; }
+.contact-info { font-size: 16px; }
+.address, .email-font { font-size: 12px; }
